@@ -64,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
         btnPause = (Button)findViewById(R.id.btnPause);
         btnStop = (Button)findViewById(R.id.btnStop);
 
+        getSupportActionBar().hide();
+
 
     }
 
